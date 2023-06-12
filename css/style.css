@@ -1,9 +1,7 @@
 /*definição das variáveis do CSS*/
 :root {
-    --one-color: rgb(255 0 0);
-    --two-color: rgb(0 255 0);
-    --three-color: rgb(0 0 255);
-    --back-color: rgb(156, 156, 161);
+    --the-color: rgb(102, 101, 101);
+    --back-color: rgb(255, 255, 255);
 }
 
 /*Resetar as configuracoes do navegador*/
@@ -25,6 +23,11 @@ body {
      margin-bottom: 30px;
  }
 
+ img {
+     height: 200px;
+     width: 200px;
+ }
+
  .box {
      width: 350px;
      height: 350px;
@@ -36,13 +39,14 @@ body {
  }
 
  #red {
-     background: var(--one-color);
+     background: var(--the-color);
+
  }
 
  #green {
-     background: var(--two-color);
+     background: var(--the-color);
  }
 
  #blue {
-     background: var(--three-color);
+     background: var(--the-color);
  }
