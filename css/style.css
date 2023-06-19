@@ -1,7 +1,7 @@
 /*definição das variáveis do CSS*/
 :root {
-    --the-color: rgb(102, 101, 101);
-    --back-color: rgb(255, 255, 255);
+    --the-color: rgb(192, 86, 45);
+    --back-color: rgb(0, 0, 0);
 }
 
 /*Resetar as configuracoes do navegador*/
@@ -24,13 +24,13 @@ body {
  }
 
  img {
-     height: 200px;
-     width: 200px;
+     height: 150px;
+     width: 250px;
  }
 
  .box {
-     width: 350px;
-     height: 350px;
+     width: 400px;
+     height: 400px;
      border: 1px solid;
      margin-bottom: 20px;
      display: flex;
